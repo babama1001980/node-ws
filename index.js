@@ -14,13 +14,13 @@ const { WebSocket, createWebSocketStream } = require('ws');
 const UUID = process.env.UUID || 'faacf142-dee8-48c2-8558-641123eb939c';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.mingfei1981.eu.org';
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';
-const NEZHA_KEY = process.env.NEZHA_KEY || 'yAhnScyEQ09v9O6xMn';
-const DOMAIN = process.env.DOMAIN || 'rs00258548.oners.jp:52336';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'gcOpVFikjcmdZ0my4m';
+const DOMAIN = process.env.DOMAIN || 'empire.kingsnetwork.uk';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
 const NAME = process.env.NAME || '';
-const PORT = process.env.PORT || 52336;
+const PORT = process.env.PORT || 25949;
 
 let uuid = UUID.replace(/-/g, ""), CurrentDomain = DOMAIN, Tls = 'tls', CurrentPort = 443, ISP = '';
 const vmsUser = { id: UUID, alterId: 0, security: 'auto' };
